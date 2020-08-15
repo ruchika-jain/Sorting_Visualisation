@@ -1,0 +1,24 @@
+.array-container {
+    position: relative;
+    bottom:0px;
+}
+  
+.array-bar {
+    width: 3px;
+    display: inline-block; 
+    margin: 0 1px; 
+}
+
+
+
+.but button {
+    background-color: #080808; 
+    border: none;
+    color: #14abc5;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    display: block;
+    font: 15px "Century Gothic", Futura, sans-serif;
+}
+

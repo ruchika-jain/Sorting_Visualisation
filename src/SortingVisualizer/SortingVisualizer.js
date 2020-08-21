@@ -86,8 +86,8 @@ class SortingVisualizer extends React.Component {
                 setTimeout(() => {
                     barStyle.height = `${newHeight}px`;
                 },i * ANIMATION_SPEED_MS);  
-            }        }
-        
+            }        
+        } 
     }
     bubbleSort() {
         const [animations,sortArray] = getBubbleSortAnimations(this.state.array);

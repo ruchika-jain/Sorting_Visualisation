@@ -8,8 +8,8 @@ import {getBubbleSortAnimations} from '../SortingAlgorithms/BubbleSort';
 
 
 
-const PRIMARY_COLOR = 'black'; //Normal color of bars
-const SECONDARY_COLOR = 'red'; //Color of bars when they are being compared
+const PRIMARY_COLOR = 'blue'; //Normal color of bars
+const SECONDARY_COLOR = 'yellow'; //Color of bars when they are being compared
 const ANIMATION_SPEED_MS = 3; //Animation Speed (how fast color changes, how fast height gets overwritten)
 
 

@@ -59,8 +59,7 @@ class SortingVisualizer extends React.Component {
                   },i * ANIMATION_SPEED_MS);
             }
         }
-        
-        const RESTORE_TIME = parseInt(ANIMATION_SPEED_MS*animations.length/2 + 3000);
+    
     }
     quickSort() {
 
@@ -88,7 +87,7 @@ class SortingVisualizer extends React.Component {
                     barStyle.height = `${newHeight}px`;
                 },i * ANIMATION_SPEED_MS);  
             }        }
-        const RESTORE_TIME = parseInt(ANIMATION_SPEED_MS*animations.length/2 + 3000);
+        
     }
     bubbleSort() {
         const [animations,sortArray] = getBubbleSortAnimations(this.state.array);
@@ -117,7 +116,7 @@ class SortingVisualizer extends React.Component {
             }
         }
 
-        const RESTORE_TIME = parseInt(ANIMATION_SPEED_MS*animations.length/2 + 3000);
+        
 
     }
     insertionSort() {
@@ -144,7 +143,7 @@ class SortingVisualizer extends React.Component {
                 },i * ANIMATION_SPEED_MS);
             }
         }
-        const RESTORE_TIME = parseInt(ANIMATION_SPEED_MS*animations.length/2 + 3000);
+        
         
     }
     selectionSort() {
@@ -170,7 +169,7 @@ class SortingVisualizer extends React.Component {
                 },i * ANIMATION_SPEED_MS);
             }
         }
-        const RESTORE_TIME = parseInt(ANIMATION_SPEED_MS*animations.length/2 + 3000);
+        
     }
     render() {
         const array = this.state.array;
@@ -204,13 +203,6 @@ class SortingVisualizer extends React.Component {
 
 function randomIntformIntervals(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
-}
-function arrayArequals(arrOne, arrtwo) {
-    if(arrOne.length !== arrtwo.length) return false;
-    for(let i = 0; i < arrOne.length; i++) {
-        if(arrOne[i] !== arrtwo[i]) return false;
-    }
-    return true;
 }
 
 export default SortingVisualizer;

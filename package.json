@@ -1,5 +1,5 @@
 {
-  "name": "sorting-visualizer",
+  "name": "Sorting-Visualization",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,6 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
-  "homepage": "http://CSALS.github.io/Sorting-Visualizer",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

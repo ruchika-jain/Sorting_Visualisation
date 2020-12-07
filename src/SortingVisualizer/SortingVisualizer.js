@@ -10,7 +10,7 @@ import {getBubbleSortAnimations} from '../SortingAlgorithms/BubbleSort';
 
 const PRIMARY_COLOR = 'blue'; //Normal color of bars
 const SECONDARY_COLOR = 'red'; //Color of bars when they are being compared
-const ANIMATION_SPEED_MS = 1000; //Animation Speed (how fast color changes, how fast height gets overwritten)
+const ANIMATION_SPEED_MS = 2; //Animation Speed (how fast color changes, how fast height gets overwritten)
 
 
 
@@ -27,7 +27,7 @@ class SortingVisualizer extends React.Component {
     //Generates new random array 
     resetArray() {
         const array = [];
-        for(let i = 0; i < 6; i++) {
+        for(let i = 0; i < 250; i++) {
             array.push(randomIntformIntervals(5, 600));
         }
         console.log("The elements are:");
